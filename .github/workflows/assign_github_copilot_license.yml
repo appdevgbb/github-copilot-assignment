@@ -5,6 +5,7 @@ on:
     types: [labeled]
 jobs:
   assign_github_copilot_license:
+    environment: Copilot
     # This job runs on the latest version of Ubuntu
     runs-on: ubuntu-latest
     # This job only runs if the label added to the issue is 'copilot-request'
